@@ -1,0 +1,61 @@
+body {
+margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+  background-image: url(multimedia/logo\ v_2.png); /* Cambia por la ruta de tu imagen */
+  background-size: cover;             /* Ajusta para que cubra toda la pantalla */
+  background-position: center;        /* Centra la imagen */
+  background-repeat: no-repeat;       /* Evita que se repita */
+    background-attachment: fixed; }
+
+
+
+main{
+      background-color: rgba(192, 188, 188, 0.8); /* Fondo semitransparente para leer el texto */
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.navbar{
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid;
+    background-color: tan;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+button{ border-radius: 25%;
+color: tan;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.mantra {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(160, 137, 106);
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    border: 2px;
+    border-radius: 10px;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo_nav {
+    height: 50px;
+}
