@@ -3,7 +3,7 @@ margin: 0;
     padding: 0;
     font-family: sans-serif;
 
-  background-image: url(multimedia/logo\ v_2.png); /* Cambia por la ruta de tu imagen */
+  background-image: url(multimedia/Background_1.jpeg); /* Cambia por la ruta de tu imagen */
   background-size: cover;             /* Ajusta para que cubra toda la pantalla */
   background-position: center;        /* Centra la imagen */
   background-repeat: no-repeat;       /* Evita que se repita */
@@ -12,14 +12,15 @@ margin: 0;
 
 
 main{
-      background-color: rgba(74, 74, 74, 0.588); /* Fondo semitransparente para leer el texto */
+    font-family: "poppins", sans-serif;
+    background-color: #855002ac; /* Fondo semitransparente para leer el texto */
     padding: 40px;
-    max-width: 800px;
+    max-width: 75%;
     margin: auto;
 }
 
-
 .barra{
+    font-family: "poppins", sans-serif;
     margin: 20px 0;
     padding: 20px;
     border: 2px solid;
@@ -28,12 +29,11 @@ main{
     align-items: center;
     justify-content: space-between;
 }
-button{ border-radius: 25%;
-color: tan;
-}
+
 .barra ul li {
     background-color: #d07710c9;
     padding: 15px;
+    border-radius: 10px;
 }
 nav ul {
     list-style: none;
@@ -41,6 +41,7 @@ nav ul {
     gap: 15px;
 }
 .mantra {
+    font-family: "poppins", sans-serif;
     position: static;
     top: 0;
     left: 0;
@@ -62,22 +63,127 @@ nav a {
 .logo_nav {
     height: 50px;
 }
-----------------------------------------------------------------------------------------------------
+
+.landing_1{
+    color: white;
+    
+}
+.main_landing {
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    
+}
+.main_landing button{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: #d07710c9;
+    border-radius: 10px;
+    transition: 0.2s ease;
+
+}
+.main_landing button a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.main_landing img{
+    display: flex;
+    max-width: 75%;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+
+}
 .Texto_desc {
-    list-style: circle;
     text-decoration: solid;
-    font-size: 18px;
     text-align: left;
-    text-decoration-color: orange;
+    text-decoration-color:white;
 
 }
 .Texto_desc h2{
+    font-size: 24px;
     font-weight: 500;
-    font-family: 'Times New Roman', Times, serif;
-    color: orange; 
+    font-family: "poppins", sans-serif;
+    color: white;
     text-decoration: underline;
 
 }
 .Texto_desc li{
-    color: orange;
+    list-style: circle;
+    font-size: 18px;
+    color: white;
+}
+.Texto_desc p{  
+    color: white;
+}
+
+
+.footer_L{
+    max-width: 75%;
+    margin: auto;
+    background-color: var(--background-main);
+    color: white;
+    text-align: center;
+}
+
+.footer_L h1 {
+    margin-top: 15px;
+    padding-top: 15px;
+    max-width: 75%;
+    margin: auto;
+    font-family: "poppins", sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.contacto {
+    padding: 15px;
+    font-family: "poppins", sans-serif;
+    position: static;
+    align-items: center;
+    bottom: 0%;
+    max-width: 75%;
+    text-align: center;
+    margin: auto;
+}
+.contacto button{
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.whatsapp{
+    background-color: 	#25D366;
+}
+.whatsapp a{
+    text-decoration: none;
+    color: white;
+}
+.Facebook{
+    background-color: 	#1877F2;
+    color: white;
+}
+.instagram{
+    background-color: 	#C13584;
+    color: white;
+}
+
+
+
+button:hover {
+    transform: scale(1.25);
+}
+
+
+
+
+:root{
+    --background-main:#855002ac;
+    --background-nav: #f7921eac;
+
+
 }
